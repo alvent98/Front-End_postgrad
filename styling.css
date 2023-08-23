@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: rgb(177, 219, 243);
+}
+
+@font-face {
+	font-family: estonia-regular-font;
+	src: url('Estonia-Regular.ttf');
+}
+
+#input {
+    border: none;
+    border-radius: 4px;
+}
+
+/* remove outline around text input box when clicking*/
+input:focus{
+    outline: none;
+}
+
+.single_movie_container {
+    /* text-align: center; */
+    background-color: #f3c9b3;
+    font-family: "estonia-regular-font";
+    font-size: 40px;
+    display: inline-table;
+    border-radius: 10px;
+    padding: 0px;
+    color: #614a3b;
+    margin-bottom: 0px;
+}
+
+.rating, p {
+    background-color: #f3c9b3;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "estonia-regular-font";
+    font-size: 40px;
+    color: #614a3b;
+}
+
+.data{
+    margin-left: 3%;
+    flex: 50%;
+}
+
+button {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+}
+
+.rating {
+    width: 300px;
+ }
+ 
+.rating__star {
+    cursor: pointer;
+    color: #614a3b;
+}
